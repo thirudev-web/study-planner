@@ -31,7 +31,7 @@ export default function ScheduleView({ plan, onDelete }) {
 
         {!confirming ? (
           <button className="danger" onClick={() => setConfirming(true)}>
-            🗑 Delete schedule
+             Delete schedule
           </button>
         ) : (
           <div className="confirm-box">

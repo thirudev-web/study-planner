@@ -47,7 +47,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1 className="title">📚 AI Study Planner</h1>
+      <h1 className="title"> AI Study Planner</h1>
       {error && <p className="error">{error}</p>}
 
       <div className="layout">

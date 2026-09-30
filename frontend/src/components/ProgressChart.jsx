@@ -45,7 +45,7 @@ export default function ProgressChart({ plan, logs, live }) {
 
   return (
     <div className="card">
-      <h3>📈 Progress {live.seconds > 0 && <span className="live-dot">● LIVE</span>}</h3>
+      <h3>Progress {live.seconds > 0 && <span className="live-dot">● LIVE</span>}</h3>
 
       <p className="muted">
         Overall: {hrs(totalStudied)} / {totalPlanned.toFixed(1)} hrs ({overall.toFixed(0)}%)
